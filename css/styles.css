@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('/images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.main-title {
+  margin-top: 10px;
+  font-size: 3rem;
+  text-align: center;
+  color: #b8b50c;
+}
+
+.buttons-container {
+  margin: 50px;
+  /* width: 100%; */
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+button {
+  width: 120px;
+  height: 120px;
+  border: none;
+}
+
+.button-container {
+  width: 120px;
+  height: 120px;
+  border-radius: 40px;
+  background: #b8b50c;
+}
+
+.button-container:hover {
+  background: #99970a;
+}
+
+.button1 {
+  background: url('/images/rock.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+
+.button2 {
+  background: url('/images/paper.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+
+.button3 {
+  background: url('/images/scissors.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+}

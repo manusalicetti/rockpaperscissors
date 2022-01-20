@@ -35,4 +35,4 @@ let game = (computer, player) => {
   } else game();
 };
 
-console.log(game());
+/* console.log(game()); */
