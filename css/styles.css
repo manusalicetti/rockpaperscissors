@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
+  font-family: sans-serif;
 }
 
 .main-title {
@@ -19,9 +20,9 @@ body {
 }
 
 .buttons-container {
-  margin: 50px;
+  margin: 100px;
   /* width: 100%; */
-  height: 400px;
+  height: 170px;
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -63,4 +64,21 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100px;
+}
+
+.scores-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.score-title {
+  color: #b8b50c;
+}
+
+.score {
+  color: #b8b50c;
+  font-size: 1.2rem;
+  text-align: center;
 }
